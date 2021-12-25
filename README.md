@@ -9,7 +9,7 @@ Publishing goals: .rmd (r markdown) file will be created when the r code reaches
 
 Guidance rules, suggestions and notes:
 Project activities and sub-goals will be agile but managed or self-managed to maintain good programming practice.
-All visualizations of events use a consistent and common unit of measure across datasets (i.e. <country population events> per million).
+All visualizations of events use a consistent and common unit of measure across datasets (i.e. "event" per million).
 Addition of missing and new functionality is a work in progress.
 New funtionality will be documented here as part of the project planning process.
 
