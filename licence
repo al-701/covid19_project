@@ -1,6 +1,6 @@
 # COVID-19 data link courtesy of  
 # WHO COVID-19 Dashboard. Geneva: World Health Organization, 2020. Available online: https://covid19.who.int/ (last cited: <date>)
-# Creative Commons Licence: CC BY-NC-SA 3.0 IGO.
+# Creative Commons Licence: CC BY-NC-SA 3.0 IGO
 
 
 # UN population data courtesy of
@@ -9,3 +9,5 @@
 # download link "Total Population - Both Sexes (XLSX, 2.4 MB)"
 # Creative Commons Licence: CC BY 3.0 IGO: http://creativecommons.org/licenses/by/3.0/igo/
 
+
+Underlying r code subject to MIT licence
