@@ -120,15 +120,15 @@ plotting <- function(datafile, facetby, x, y, x_label, y_label, plot_heading){
 
 group_names <- NULL
 
-#plot cases and deaths for countries in UK and America ...........
+#plot cases and deaths for countries in UK and North America ...........
 
 country_data <- clean_covid_file %>% 
     filter(date_reported >= selected_date) %>%
     filter(country %in% select_america)
 country_data$facetby <-factor(country_data$country, levels=levels(select_america))
 
-plot_cases <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$cases_per_capita, "Date Reported", "Cases / million", "Covid-19 daily cases per million for UK vs. America")
-plot_deaths <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$deaths_per_capita, "Date Reported", "Deaths / million", "Covid-19 daily deaths per million for UK vs. America")
+plot_cases <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$cases_per_capita, "Date Reported", "Daily Cases / million", "Covid-19 daily cases per million for UK vs. North America")
+plot_deaths <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$deaths_per_capita, "Date Reported", "Daily Deaths / million", "Covid-19 daily deaths per million for UK vs. North America")
 grid.arrange(plot_cases,plot_deaths,nrow=2)
 
 #plot cases and deaths for countries in UK and Europe ...........
@@ -138,8 +138,8 @@ country_data <- clean_covid_file %>%
     filter(country %in% select_europe)
 country_data$facetby <-factor(country_data$country, levels=levels(select_europe))
 
-plot_cases <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$cases_per_capita, "Date Reported", "Cases / million", "Covid-19 daily cases per million for UK vs. Europe")
-plot_deaths <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$deaths_per_capita, "Date Reported", "Deaths / million", "Covid-19 daily deaths per million for UK vs. Europe")
+plot_cases <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$cases_per_capita, "Date Reported", "Daily Cases / million", "Covid-19 daily cases per million for UK vs. Europe")
+plot_deaths <- plotting(country_data, country_data$facetby, country_data$date_reported, country_data$deaths_per_capita, "Date Reported", "Daily Deaths / million", "Covid-19 daily deaths per million for UK vs. Europe")
 grid.arrange(plot_cases,plot_deaths,nrow=2)
 
 #plot cases and deaths worldwide by region .................
@@ -162,5 +162,5 @@ plot_cases <- plotting(region_data, region_data$facetby,region_data$date_reporte
 plot_deaths <- plotting(region_data, region_data$facetby,region_data$date_reported, region_data$deaths_per_capita, "Date Reported", "Daily Deaths / million", "Covid-19 daily deaths per million worldwide")
 grid.arrange(plot_cases, plot_deaths, nrow=2)
 
-#gc() # garbage collection
+gc() # garbage collection
 
