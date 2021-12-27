@@ -76,6 +76,7 @@ clean_covid_file <- covid_file %>%
 #               date_reported == "2021-12-02"))
 
 gc() # garbage collection
+#gc() # garbage collection
 
 library(gridExtra)  # grid.arrange() function
 library(scales)     # scales function
