@@ -1,4 +1,4 @@
-This project is a means of developing and practicing r coding skills and git knowledge while working towards good story-telling presentations describing 
+This project is a continuous activity developing good story-telling presentations with principles of good programming practices describing 
   covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022.
 
 Phase 1: ggplot and other visualizations:
