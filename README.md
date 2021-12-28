@@ -1,5 +1,4 @@
-This project is a continuous activity developing good story-telling presentations with principles of good programming practices describing 
-  covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022.
+This project is an activity developing good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices.
 
 Phase 1: ggplot and other visualizations:
 UK vs North America /
