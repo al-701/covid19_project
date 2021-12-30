@@ -3,7 +3,7 @@ Notes~
 1 - The cases for 5 plots are similar, but the Netherlands shows a different trajectory.
 2 - Canada's proportion of cases and deaths is much lower than the other 5 countries. The US has a markedly higher proportion of deaths.
 3 - The rapid increase in cases (in Canada and the UK especially) does not seem to be matched by a comparable increase in deaths so far. 
-The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, Other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
+The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
 
 ![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
 ![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
