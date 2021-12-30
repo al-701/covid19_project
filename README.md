@@ -1,4 +1,14 @@
-This project is an activity developing good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices.
+The current plots show proportion of cases and deaths for 6 countries since early October 2021. 
+Notes~
+1 - The cases for 5 plots are similar, but the Netherlands shows a different trajectory.
+2 - Canada's proportion of cases and deaths is much lower than the other 5 countries. The US has a markedly higher proportion of deaths.
+3 - The rapid increase in cases (in Canada and the UK especially) does not seem to be matched by a comparable increase in deaths so far. 
+The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, Other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
+
+![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
+![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
+
+This project consists of activities that develop good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices.
 
 Phase 1: ggplot and other visualizations:
 Selected countries for direct comparison (up to 6 countries of current interest)
@@ -10,9 +20,3 @@ Project activities and sub-goals will be agile but managed or self-managed using
 All visualizations will use a consistent unit of measure (i.e. "proportion of events" per million) to negate population differences (thus allowing "apples to apples" comparison between countries.)
 Missing functionality is to be added soon.
 New funtionality will be documented here as part of future planning.
-
-The current plots show proportion of cases and deaths for 6 countries since early October 2021. The rapid increase in cases (in Canada and the UK especially) does not seem to be matched by a comparable increase in deaths so far. 
-The vacination data will be added to the visualization shortly, and with that data we may be aable to state a hypothesis testing the relationship between vaccination rates and death rates. Other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
-
-![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
-![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
