@@ -13,8 +13,7 @@ Missing functionality is to be added soon.
 New funtionality will be documented here as part of future planning.
 
 The current plots show proportion of cases and deaths for 6 countries since early October 2021. The rapid increase in cases does not seem to be matched by a comparable increase in deaths so far. 
-The vacination data will be added, which may then allow us to state a hypothesis using vaccination rates as an explanatory variable (vaccination rates).
-
+The vacination data will be added to the visualization shortly, and with that data we may be aable to state a hypothesis testing the relationship between vaccination rates and death rates. Other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
 
 ![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
 ![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
