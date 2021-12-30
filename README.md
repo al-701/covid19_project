@@ -8,7 +8,7 @@ The vacination data will be added to the visualization shortly, and with that da
 ![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
 ![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
 
-This project consists of activities that develop good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices.
+This project consists of activities that develop good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices. The underlying code uses the r programming language.
 
 Phase 1: ggplot and other visualizations:
 Selected countries for direct comparison (up to 6 countries of current interest)
