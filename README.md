@@ -12,4 +12,9 @@ All visualizations will use a consistent unit of measure (i.e. "events" per mill
 Missing functionality is to be added soon.
 New funtionality will be documented here as part of future planning.
 
-New functionality:
+The current plots show proportion of cases and deaths for 6 countries since early October 2021. The rapid increase in cases does not seem to be matched by a comparable increase in deaths so far. 
+The vacination data will be added, which may then allow us to state a hypothesis using vaccination rates as an explanatory variable (vaccination rates).
+
+
+![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
+![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
