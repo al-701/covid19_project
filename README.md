@@ -10,10 +10,10 @@ The vacination data will be added to the visualization shortly, and with that da
 
 This project consists of activities that develop good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices. The underlying code uses the r programming language.
 
-Phase 1: ggplot and other visualizations:
-Selected countries for direct comparison (up to 6 countries of current interest)
-Worldwide visualizations based on the 6 WHO regions.
-R markdown: .rmd (r markdown) file is a WIP, to be completed with r code development. 
+Phase 1: Visualizations use ggplot.
+6 countries of interest are selected at any time for direct comparison. The selections may change in the future. 
+Worldwide visualizations (if presented) are based on all 6 WHO regions.
+The r markdown file (rmd) when included will be saved in the same folder as the r program. 
 
 Guidance rules, suggestions and notes:
 Project activities and sub-goals will be agile but managed or self-managed using good programming practices.
