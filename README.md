@@ -2,7 +2,8 @@ The current plots show proportion of cases and deaths for 6 selected countries a
 
 Notes~
 The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
-updated charts on 17-Jan-2022 (daily scale from 15_dec-2021 to 15-Jan-2022)
+
+Updated charts on 17-Jan-2022 (daily scale from 15_dec-2021 to 15-Jan-2022)
 ![country cases per million 20220117](https://user-images.githubusercontent.com/80735707/149873896-2998cdb0-a734-4f4e-b194-21457efd8a95.png)
 ![country deaths per million 20220117](https://user-images.githubusercontent.com/80735707/149873903-a4ef8b52-3921-4800-b2fb-b12d407522e9.png)
 ![world cases per million 20220117](https://user-images.githubusercontent.com/80735707/149873911-075f5233-0489-47ee-af9f-a490db271f7a.png)
