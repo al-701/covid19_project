@@ -6,9 +6,11 @@ Notes~
 3 - The rapid increase in cases (in Canada and the UK especially) does not seem to be matched by a comparable increase in deaths so far. 
 
 The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
-
-![country_cases](https://user-images.githubusercontent.com/80735707/147724805-49dcc2e2-6a9f-41f3-b5a9-4547039d990f.png)
-![country_deaths](https://user-images.githubusercontent.com/80735707/147724812-ba7242b3-c90e-4791-a17f-98f05cc8f188.png)
+updated charts on 17-Jan-2022 (daily scale from 15_dec-2021 to 15-Jan-2022)
+![country cases per million 20220117](https://user-images.githubusercontent.com/80735707/149873896-2998cdb0-a734-4f4e-b194-21457efd8a95.png)
+![country deaths per million 20220117](https://user-images.githubusercontent.com/80735707/149873903-a4ef8b52-3921-4800-b2fb-b12d407522e9.png)
+![world cases per million 20220117](https://user-images.githubusercontent.com/80735707/149873911-075f5233-0489-47ee-af9f-a490db271f7a.png)
+![world deaths per million 20220117](https://user-images.githubusercontent.com/80735707/149873934-87ea26c6-329d-487f-a44f-19a2de52da00.png)
 
 This project consists of activities that develop good story-telling presentations describing covid-19 visualizations of cases, deaths and vaccinations from 2020 to 2022, and applying good programming practices. The underlying code uses the r programming language.
 
