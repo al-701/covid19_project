@@ -1,10 +1,6 @@
-The current plots show proportion of cases and deaths for 6 countries since early October 2021. 
+The current plots show proportion of cases and deaths for 6 selected countries and worldwide by WHO region. 
 
 Notes~
-1 - The cases for 5 plots are similar, but the Netherlands shows a different trajectory.
-2 - Canada's proportion of cases and deaths is much lower than the other 5 countries. The US has a markedly higher proportion of deaths.
-3 - The rapid increase in cases (in Canada and the UK especially) does not seem to be matched by a comparable increase in deaths so far. 
-
 The vacination data will be added to the visualization shortly, and with that data we may be able to state a hypothesis to test the relationship between vaccination rates and death rates. In the hypothesis, other possible explanatory and/or confounding variables nay be population demographics, hosptalization rates, reporting of positive rapid test results without confirmation by a laboratory test and more.
 updated charts on 17-Jan-2022 (daily scale from 15_dec-2021 to 15-Jan-2022)
 ![country cases per million 20220117](https://user-images.githubusercontent.com/80735707/149873896-2998cdb0-a734-4f4e-b194-21457efd8a95.png)
