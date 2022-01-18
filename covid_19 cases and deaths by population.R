@@ -72,8 +72,8 @@ clean_covid_file <- covid_file %>%
     summarise_at(vars(cases_per_capita,deaths_per_capita),sum)
 #    summarise_at(vars(cases_per_capita,deaths_per_capita),sum) %>%
 #    filter(country %in% c("Canada","Barbados") & 
-#               (date_reported == "2021-12-01" |
-#               date_reported == "2021-12-02"))
+#               (date_reported == "2021-12-25" |
+#               date_reported == "2022-01-16"))
 
 gc() # garbage collection
 #gc() # garbage collection
@@ -82,8 +82,8 @@ library(gridExtra)  # grid.arrange() function
 library(scales)     # scales function
 
 #parameters
-selected_date <- "2021-10-06"
-date_intervals <- "1 week"
+selected_date <- "2021-12-15"
+date_intervals <- "1 day"
 date_range <- paste("From", format(as_date(selected_date), format="%d %b %Y"), "to", format(today()-2, format("%d %b %Y")),
                     "/ Plot interval:", date_intervals)
 #select_america <- factor(c("Canada","United States of America","The United Kingdom"),
@@ -107,7 +107,7 @@ select_region <- factor(c("AFRO", "AMRO", "EMRO", "EURO", "SEARO", "WPRO"),
 plotting <- function(datafile, facetby, x, y, x_label, y_label, plot_heading){
     ggplot(datafile, aes(x, y, col = facetby)) +
  #       geom_line() +
- #       geom_segment(xend=x, yend=0) +
+        geom_segment(xend=x, yend=0) +
         geom_ribbon(aes(ymax=y, ymin=0),alpha=.2) +
         facet_wrap(vars(facetby),labeller=as_labeller(group_names)) +
         labs(title=plot_heading, subtitle=date_range,
